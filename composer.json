@@ -1,0 +1,19 @@
+{
+    "name": "mario/app-php-catalogo-video",
+    "description": "App With PHP",
+    "authors": [
+        {
+            "name": "Mario George",
+            "email": "mario.galvao.woohoo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",        
+        "mockery/mockery": "^1.5"
+    }
+}
